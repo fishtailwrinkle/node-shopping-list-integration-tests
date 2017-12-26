@@ -149,7 +149,7 @@ describe('Recipe', function() {
     return closeServer();
   });
 
-  it('should list items on GET', function() {
+  it('should list recipe items on GET', function() {
 
     return chai.request(app)
       .get('/recipes')
